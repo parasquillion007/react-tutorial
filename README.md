@@ -5,16 +5,33 @@
    - node_modules
    - public
    - src
-     - assests
+     - assests :
        - It contains assets of our project.
-       - It consists of images, svg, fonts and styling files etc store.
-     - layout
+       - It consists of images, svg, fonts and styling static files etc store.
+     - layout :
        - It contains layouts available to the whole project like header, footer, etc.
        - We can store the header, footer, and sidebar code here and call it.
-     - component
+     - component :
        - This folder consists of a collection of UI components like buttons, modals, inputs, loader, etc.
        - That can be used across various files in the project.
-     - Pages
+     - Pages :
        - The files in the pages folder indicate the route of the react application.
        - Each file in this folder contains its route. A page can contain its subfolder
        - Note : "This remains to be seen".
+     - middleware :
+       - This folder consists of middleware that allows for side effects in the application.
+       - Here we keep all our custom middleware.
+       - It is used when we are using redux with it.
+     - routes :
+       - This folder consists of all routes of the application.
+       - It consists of private, protected, and all types of routes.
+       - Here we can even call our sub-route.
+     - config :
+       - This folder consists of a all the global configuration file where we store environment variables in config.js.
+       - We will use this file to set up multi-environment configurations in your application.
+     - services :
+       - This folder consists of a configuration file where we store environment variables in config.js.
+       - We will use this file to set up multi-environment configurations in your application.
+     - utils :
+       - This folder consists of a configuration file where we store environment variables in config.js.
+       - We will use this file to set up multi-environment configurations in your application.
