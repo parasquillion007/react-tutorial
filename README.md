@@ -1,3 +1,8 @@
 # react-tutorial
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-qmqrkh)
+1. Folder Structure :
+   - build // When build was create.
+   - node_modules
+   - public
+   - src
+     - assests
